@@ -3,7 +3,7 @@ import random
 number = random.randint(-10000, 10000)
 lastDigit = abs(number) % 10
 
-print(f"Last digit of {number} is {lastDigit}",end=" and is ")
+print(f"Last digit of {number} is {lastDigit}", end=" and is ")
 # the print function appends new lines
 # end=" " appends white space instead of a newline
 
