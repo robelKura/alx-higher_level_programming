@@ -2,8 +2,8 @@
 import random
 number = random.randint(-10000, 10000)
 lastDigit = abs(number) % 10
-if number<0:
-	lastDigit = -lastDigit
+if number < 0:
+    lastDigit = -lastDigit
 print(f"Last digit of {number} is {lastDigit}", end=" and is ")
 # the print function appends new lines
 # end=" " appends white space instead of a newline
